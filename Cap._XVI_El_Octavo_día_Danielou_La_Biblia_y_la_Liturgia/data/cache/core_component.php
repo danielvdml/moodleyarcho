@@ -1,0 +1,1633 @@
+<?php
+$cache = array (
+  'subsystems' => 
+  array (
+    'access' => NULL,
+    'admin' => '/home/u865643202/public_html/periodica/admin',
+    'auth' => '/home/u865643202/public_html/periodica/auth',
+    'backup' => '/home/u865643202/public_html/periodica/backup/util/ui',
+    'badges' => '/home/u865643202/public_html/periodica/badges',
+    'block' => '/home/u865643202/public_html/periodica/blocks',
+    'blog' => '/home/u865643202/public_html/periodica/blog',
+    'bulkusers' => NULL,
+    'cache' => '/home/u865643202/public_html/periodica/cache',
+    'calendar' => '/home/u865643202/public_html/periodica/calendar',
+    'cohort' => '/home/u865643202/public_html/periodica/cohort',
+    'condition' => NULL,
+    'completion' => NULL,
+    'countries' => NULL,
+    'course' => '/home/u865643202/public_html/periodica/course',
+    'currencies' => NULL,
+    'dbtransfer' => NULL,
+    'debug' => NULL,
+    'editor' => '/home/u865643202/public_html/periodica/lib/editor',
+    'edufields' => NULL,
+    'enrol' => '/home/u865643202/public_html/periodica/enrol',
+    'error' => NULL,
+    'filepicker' => NULL,
+    'files' => '/home/u865643202/public_html/periodica/files',
+    'filters' => NULL,
+    'form' => '/home/u865643202/public_html/periodica/lib/form',
+    'grades' => '/home/u865643202/public_html/periodica/grade',
+    'grading' => '/home/u865643202/public_html/periodica/grade/grading',
+    'group' => '/home/u865643202/public_html/periodica/group',
+    'help' => NULL,
+    'hub' => NULL,
+    'imscc' => NULL,
+    'install' => NULL,
+    'iso6392' => NULL,
+    'langconfig' => NULL,
+    'license' => NULL,
+    'mathslib' => NULL,
+    'media' => NULL,
+    'message' => '/home/u865643202/public_html/periodica/message',
+    'mimetypes' => NULL,
+    'mnet' => '/home/u865643202/public_html/periodica/mnet',
+    'my' => '/home/u865643202/public_html/periodica/my',
+    'notes' => '/home/u865643202/public_html/periodica/notes',
+    'pagetype' => NULL,
+    'pix' => NULL,
+    'plagiarism' => '/home/u865643202/public_html/periodica/plagiarism',
+    'plugin' => NULL,
+    'portfolio' => '/home/u865643202/public_html/periodica/portfolio',
+    'publish' => '/home/u865643202/public_html/periodica/course/publish',
+    'question' => '/home/u865643202/public_html/periodica/question',
+    'rating' => '/home/u865643202/public_html/periodica/rating',
+    'register' => '/home/u865643202/public_html/periodica/admin/registration',
+    'repository' => '/home/u865643202/public_html/periodica/repository',
+    'rss' => '/home/u865643202/public_html/periodica/rss',
+    'role' => '/home/u865643202/public_html/periodica/admin/roles',
+    'search' => NULL,
+    'table' => NULL,
+    'tag' => '/home/u865643202/public_html/periodica/tag',
+    'timezones' => NULL,
+    'user' => '/home/u865643202/public_html/periodica/user',
+    'userkey' => NULL,
+    'webservice' => '/home/u865643202/public_html/periodica/webservice',
+  ),
+  'plugintypes' => 
+  array (
+    'qtype' => '/home/u865643202/public_html/periodica/question/type',
+    'mod' => '/home/u865643202/public_html/periodica/mod',
+    'auth' => '/home/u865643202/public_html/periodica/auth',
+    'calendartype' => '/home/u865643202/public_html/periodica/calendar/type',
+    'enrol' => '/home/u865643202/public_html/periodica/enrol',
+    'message' => '/home/u865643202/public_html/periodica/message/output',
+    'block' => '/home/u865643202/public_html/periodica/blocks',
+    'filter' => '/home/u865643202/public_html/periodica/filter',
+    'editor' => '/home/u865643202/public_html/periodica/lib/editor',
+    'format' => '/home/u865643202/public_html/periodica/course/format',
+    'profilefield' => '/home/u865643202/public_html/periodica/user/profile/field',
+    'report' => '/home/u865643202/public_html/periodica/report',
+    'coursereport' => '/home/u865643202/public_html/periodica/course/report',
+    'gradeexport' => '/home/u865643202/public_html/periodica/grade/export',
+    'gradeimport' => '/home/u865643202/public_html/periodica/grade/import',
+    'gradereport' => '/home/u865643202/public_html/periodica/grade/report',
+    'gradingform' => '/home/u865643202/public_html/periodica/grade/grading/form',
+    'mnetservice' => '/home/u865643202/public_html/periodica/mnet/service',
+    'webservice' => '/home/u865643202/public_html/periodica/webservice',
+    'repository' => '/home/u865643202/public_html/periodica/repository',
+    'portfolio' => '/home/u865643202/public_html/periodica/portfolio',
+    'qbehaviour' => '/home/u865643202/public_html/periodica/question/behaviour',
+    'qformat' => '/home/u865643202/public_html/periodica/question/format',
+    'plagiarism' => '/home/u865643202/public_html/periodica/plagiarism',
+    'tool' => '/home/u865643202/public_html/periodica/admin/tool',
+    'cachestore' => '/home/u865643202/public_html/periodica/cache/stores',
+    'cachelock' => '/home/u865643202/public_html/periodica/cache/locks',
+    'theme' => '/home/u865643202/public_html/periodica/theme',
+    'assignsubmission' => '/home/u865643202/public_html/periodica/mod/assign/submission',
+    'assignfeedback' => '/home/u865643202/public_html/periodica/mod/assign/feedback',
+    'assignment' => '/home/u865643202/public_html/periodica/mod/assignment/type',
+    'booktool' => '/home/u865643202/public_html/periodica/mod/book/tool',
+    'datafield' => '/home/u865643202/public_html/periodica/mod/data/field',
+    'datapreset' => '/home/u865643202/public_html/periodica/mod/data/preset',
+    'ltisource' => '/home/u865643202/public_html/periodica/mod/lti/source',
+    'quiz' => '/home/u865643202/public_html/periodica/mod/quiz/report',
+    'quizaccess' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule',
+    'scormreport' => '/home/u865643202/public_html/periodica/mod/scorm/report',
+    'workshopform' => '/home/u865643202/public_html/periodica/mod/workshop/form',
+    'workshopallocation' => '/home/u865643202/public_html/periodica/mod/workshop/allocation',
+    'workshopeval' => '/home/u865643202/public_html/periodica/mod/workshop/eval',
+    'tinymce' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins',
+    'local' => '/home/u865643202/public_html/periodica/local',
+  ),
+  'plugins' => 
+  array (
+    'qtype' => 
+    array (
+      'calculated' => '/home/u865643202/public_html/periodica/question/type/calculated',
+      'calculatedmulti' => '/home/u865643202/public_html/periodica/question/type/calculatedmulti',
+      'calculatedsimple' => '/home/u865643202/public_html/periodica/question/type/calculatedsimple',
+      'description' => '/home/u865643202/public_html/periodica/question/type/description',
+      'essay' => '/home/u865643202/public_html/periodica/question/type/essay',
+      'match' => '/home/u865643202/public_html/periodica/question/type/match',
+      'missingtype' => '/home/u865643202/public_html/periodica/question/type/missingtype',
+      'multianswer' => '/home/u865643202/public_html/periodica/question/type/multianswer',
+      'multichoice' => '/home/u865643202/public_html/periodica/question/type/multichoice',
+      'numerical' => '/home/u865643202/public_html/periodica/question/type/numerical',
+      'random' => '/home/u865643202/public_html/periodica/question/type/random',
+      'randomsamatch' => '/home/u865643202/public_html/periodica/question/type/randomsamatch',
+      'shortanswer' => '/home/u865643202/public_html/periodica/question/type/shortanswer',
+      'truefalse' => '/home/u865643202/public_html/periodica/question/type/truefalse',
+    ),
+    'mod' => 
+    array (
+      'assign' => '/home/u865643202/public_html/periodica/mod/assign',
+      'assignment' => '/home/u865643202/public_html/periodica/mod/assignment',
+      'book' => '/home/u865643202/public_html/periodica/mod/book',
+      'chat' => '/home/u865643202/public_html/periodica/mod/chat',
+      'choice' => '/home/u865643202/public_html/periodica/mod/choice',
+      'data' => '/home/u865643202/public_html/periodica/mod/data',
+      'feedback' => '/home/u865643202/public_html/periodica/mod/feedback',
+      'folder' => '/home/u865643202/public_html/periodica/mod/folder',
+      'forum' => '/home/u865643202/public_html/periodica/mod/forum',
+      'glossary' => '/home/u865643202/public_html/periodica/mod/glossary',
+      'imscp' => '/home/u865643202/public_html/periodica/mod/imscp',
+      'jclic' => '/home/u865643202/public_html/periodica/mod/jclic',
+      'label' => '/home/u865643202/public_html/periodica/mod/label',
+      'lesson' => '/home/u865643202/public_html/periodica/mod/lesson',
+      'lti' => '/home/u865643202/public_html/periodica/mod/lti',
+      'page' => '/home/u865643202/public_html/periodica/mod/page',
+      'quiz' => '/home/u865643202/public_html/periodica/mod/quiz',
+      'resource' => '/home/u865643202/public_html/periodica/mod/resource',
+      'scorm' => '/home/u865643202/public_html/periodica/mod/scorm',
+      'survey' => '/home/u865643202/public_html/periodica/mod/survey',
+      'url' => '/home/u865643202/public_html/periodica/mod/url',
+      'wiki' => '/home/u865643202/public_html/periodica/mod/wiki',
+      'workshop' => '/home/u865643202/public_html/periodica/mod/workshop',
+    ),
+    'auth' => 
+    array (
+      'cas' => '/home/u865643202/public_html/periodica/auth/cas',
+      'db' => '/home/u865643202/public_html/periodica/auth/db',
+      'email' => '/home/u865643202/public_html/periodica/auth/email',
+      'fc' => '/home/u865643202/public_html/periodica/auth/fc',
+      'imap' => '/home/u865643202/public_html/periodica/auth/imap',
+      'ldap' => '/home/u865643202/public_html/periodica/auth/ldap',
+      'manual' => '/home/u865643202/public_html/periodica/auth/manual',
+      'mnet' => '/home/u865643202/public_html/periodica/auth/mnet',
+      'nntp' => '/home/u865643202/public_html/periodica/auth/nntp',
+      'nologin' => '/home/u865643202/public_html/periodica/auth/nologin',
+      'none' => '/home/u865643202/public_html/periodica/auth/none',
+      'pam' => '/home/u865643202/public_html/periodica/auth/pam',
+      'pop3' => '/home/u865643202/public_html/periodica/auth/pop3',
+      'radius' => '/home/u865643202/public_html/periodica/auth/radius',
+      'shibboleth' => '/home/u865643202/public_html/periodica/auth/shibboleth',
+      'webservice' => '/home/u865643202/public_html/periodica/auth/webservice',
+    ),
+    'calendartype' => 
+    array (
+      'gregorian' => '/home/u865643202/public_html/periodica/calendar/type/gregorian',
+    ),
+    'enrol' => 
+    array (
+      'category' => '/home/u865643202/public_html/periodica/enrol/category',
+      'cohort' => '/home/u865643202/public_html/periodica/enrol/cohort',
+      'database' => '/home/u865643202/public_html/periodica/enrol/database',
+      'flatfile' => '/home/u865643202/public_html/periodica/enrol/flatfile',
+      'guest' => '/home/u865643202/public_html/periodica/enrol/guest',
+      'imsenterprise' => '/home/u865643202/public_html/periodica/enrol/imsenterprise',
+      'ldap' => '/home/u865643202/public_html/periodica/enrol/ldap',
+      'manual' => '/home/u865643202/public_html/periodica/enrol/manual',
+      'meta' => '/home/u865643202/public_html/periodica/enrol/meta',
+      'mnet' => '/home/u865643202/public_html/periodica/enrol/mnet',
+      'paypal' => '/home/u865643202/public_html/periodica/enrol/paypal',
+      'self' => '/home/u865643202/public_html/periodica/enrol/self',
+    ),
+    'message' => 
+    array (
+      'email' => '/home/u865643202/public_html/periodica/message/output/email',
+      'jabber' => '/home/u865643202/public_html/periodica/message/output/jabber',
+      'popup' => '/home/u865643202/public_html/periodica/message/output/popup',
+    ),
+    'block' => 
+    array (
+      'activity_modules' => '/home/u865643202/public_html/periodica/blocks/activity_modules',
+      'admin_bookmarks' => '/home/u865643202/public_html/periodica/blocks/admin_bookmarks',
+      'badges' => '/home/u865643202/public_html/periodica/blocks/badges',
+      'blog_menu' => '/home/u865643202/public_html/periodica/blocks/blog_menu',
+      'blog_recent' => '/home/u865643202/public_html/periodica/blocks/blog_recent',
+      'blog_tags' => '/home/u865643202/public_html/periodica/blocks/blog_tags',
+      'calendar_month' => '/home/u865643202/public_html/periodica/blocks/calendar_month',
+      'calendar_upcoming' => '/home/u865643202/public_html/periodica/blocks/calendar_upcoming',
+      'comments' => '/home/u865643202/public_html/periodica/blocks/comments',
+      'community' => '/home/u865643202/public_html/periodica/blocks/community',
+      'completionstatus' => '/home/u865643202/public_html/periodica/blocks/completionstatus',
+      'course_list' => '/home/u865643202/public_html/periodica/blocks/course_list',
+      'course_overview' => '/home/u865643202/public_html/periodica/blocks/course_overview',
+      'course_summary' => '/home/u865643202/public_html/periodica/blocks/course_summary',
+      'feedback' => '/home/u865643202/public_html/periodica/blocks/feedback',
+      'glossary_random' => '/home/u865643202/public_html/periodica/blocks/glossary_random',
+      'html' => '/home/u865643202/public_html/periodica/blocks/html',
+      'login' => '/home/u865643202/public_html/periodica/blocks/login',
+      'mentees' => '/home/u865643202/public_html/periodica/blocks/mentees',
+      'messages' => '/home/u865643202/public_html/periodica/blocks/messages',
+      'mnet_hosts' => '/home/u865643202/public_html/periodica/blocks/mnet_hosts',
+      'myprofile' => '/home/u865643202/public_html/periodica/blocks/myprofile',
+      'navigation' => '/home/u865643202/public_html/periodica/blocks/navigation',
+      'news_items' => '/home/u865643202/public_html/periodica/blocks/news_items',
+      'online_users' => '/home/u865643202/public_html/periodica/blocks/online_users',
+      'participants' => '/home/u865643202/public_html/periodica/blocks/participants',
+      'private_files' => '/home/u865643202/public_html/periodica/blocks/private_files',
+      'quiz_results' => '/home/u865643202/public_html/periodica/blocks/quiz_results',
+      'recent_activity' => '/home/u865643202/public_html/periodica/blocks/recent_activity',
+      'rss_client' => '/home/u865643202/public_html/periodica/blocks/rss_client',
+      'search_forums' => '/home/u865643202/public_html/periodica/blocks/search_forums',
+      'section_links' => '/home/u865643202/public_html/periodica/blocks/section_links',
+      'selfcompletion' => '/home/u865643202/public_html/periodica/blocks/selfcompletion',
+      'settings' => '/home/u865643202/public_html/periodica/blocks/settings',
+      'site_main_menu' => '/home/u865643202/public_html/periodica/blocks/site_main_menu',
+      'social_activities' => '/home/u865643202/public_html/periodica/blocks/social_activities',
+      'tag_flickr' => '/home/u865643202/public_html/periodica/blocks/tag_flickr',
+      'tag_youtube' => '/home/u865643202/public_html/periodica/blocks/tag_youtube',
+      'tags' => '/home/u865643202/public_html/periodica/blocks/tags',
+    ),
+    'filter' => 
+    array (
+      'activitynames' => '/home/u865643202/public_html/periodica/filter/activitynames',
+      'algebra' => '/home/u865643202/public_html/periodica/filter/algebra',
+      'censor' => '/home/u865643202/public_html/periodica/filter/censor',
+      'data' => '/home/u865643202/public_html/periodica/filter/data',
+      'emailprotect' => '/home/u865643202/public_html/periodica/filter/emailprotect',
+      'emoticon' => '/home/u865643202/public_html/periodica/filter/emoticon',
+      'glossary' => '/home/u865643202/public_html/periodica/filter/glossary',
+      'mediaplugin' => '/home/u865643202/public_html/periodica/filter/mediaplugin',
+      'multilang' => '/home/u865643202/public_html/periodica/filter/multilang',
+      'tex' => '/home/u865643202/public_html/periodica/filter/tex',
+      'tidy' => '/home/u865643202/public_html/periodica/filter/tidy',
+      'urltolink' => '/home/u865643202/public_html/periodica/filter/urltolink',
+    ),
+    'editor' => 
+    array (
+      'textarea' => '/home/u865643202/public_html/periodica/lib/editor/textarea',
+      'tinymce' => '/home/u865643202/public_html/periodica/lib/editor/tinymce',
+    ),
+    'format' => 
+    array (
+      'singleactivity' => '/home/u865643202/public_html/periodica/course/format/singleactivity',
+      'social' => '/home/u865643202/public_html/periodica/course/format/social',
+      'topics' => '/home/u865643202/public_html/periodica/course/format/topics',
+      'weeks' => '/home/u865643202/public_html/periodica/course/format/weeks',
+    ),
+    'profilefield' => 
+    array (
+      'checkbox' => '/home/u865643202/public_html/periodica/user/profile/field/checkbox',
+      'datetime' => '/home/u865643202/public_html/periodica/user/profile/field/datetime',
+      'menu' => '/home/u865643202/public_html/periodica/user/profile/field/menu',
+      'text' => '/home/u865643202/public_html/periodica/user/profile/field/text',
+      'textarea' => '/home/u865643202/public_html/periodica/user/profile/field/textarea',
+    ),
+    'report' => 
+    array (
+      'backups' => '/home/u865643202/public_html/periodica/report/backups',
+      'completion' => '/home/u865643202/public_html/periodica/report/completion',
+      'configlog' => '/home/u865643202/public_html/periodica/report/configlog',
+      'courseoverview' => '/home/u865643202/public_html/periodica/report/courseoverview',
+      'log' => '/home/u865643202/public_html/periodica/report/log',
+      'loglive' => '/home/u865643202/public_html/periodica/report/loglive',
+      'outline' => '/home/u865643202/public_html/periodica/report/outline',
+      'participation' => '/home/u865643202/public_html/periodica/report/participation',
+      'performance' => '/home/u865643202/public_html/periodica/report/performance',
+      'progress' => '/home/u865643202/public_html/periodica/report/progress',
+      'questioninstances' => '/home/u865643202/public_html/periodica/report/questioninstances',
+      'security' => '/home/u865643202/public_html/periodica/report/security',
+      'stats' => '/home/u865643202/public_html/periodica/report/stats',
+    ),
+    'coursereport' => 
+    array (
+    ),
+    'gradeexport' => 
+    array (
+      'ods' => '/home/u865643202/public_html/periodica/grade/export/ods',
+      'txt' => '/home/u865643202/public_html/periodica/grade/export/txt',
+      'xls' => '/home/u865643202/public_html/periodica/grade/export/xls',
+      'xml' => '/home/u865643202/public_html/periodica/grade/export/xml',
+    ),
+    'gradeimport' => 
+    array (
+      'csv' => '/home/u865643202/public_html/periodica/grade/import/csv',
+      'xml' => '/home/u865643202/public_html/periodica/grade/import/xml',
+    ),
+    'gradereport' => 
+    array (
+      'grader' => '/home/u865643202/public_html/periodica/grade/report/grader',
+      'outcomes' => '/home/u865643202/public_html/periodica/grade/report/outcomes',
+      'overview' => '/home/u865643202/public_html/periodica/grade/report/overview',
+      'user' => '/home/u865643202/public_html/periodica/grade/report/user',
+    ),
+    'gradingform' => 
+    array (
+      'guide' => '/home/u865643202/public_html/periodica/grade/grading/form/guide',
+      'rubric' => '/home/u865643202/public_html/periodica/grade/grading/form/rubric',
+    ),
+    'mnetservice' => 
+    array (
+      'enrol' => '/home/u865643202/public_html/periodica/mnet/service/enrol',
+    ),
+    'webservice' => 
+    array (
+      'amf' => '/home/u865643202/public_html/periodica/webservice/amf',
+      'rest' => '/home/u865643202/public_html/periodica/webservice/rest',
+      'soap' => '/home/u865643202/public_html/periodica/webservice/soap',
+      'xmlrpc' => '/home/u865643202/public_html/periodica/webservice/xmlrpc',
+    ),
+    'repository' => 
+    array (
+      'alfresco' => '/home/u865643202/public_html/periodica/repository/alfresco',
+      'areafiles' => '/home/u865643202/public_html/periodica/repository/areafiles',
+      'boxnet' => '/home/u865643202/public_html/periodica/repository/boxnet',
+      'coursefiles' => '/home/u865643202/public_html/periodica/repository/coursefiles',
+      'dropbox' => '/home/u865643202/public_html/periodica/repository/dropbox',
+      'equella' => '/home/u865643202/public_html/periodica/repository/equella',
+      'filesystem' => '/home/u865643202/public_html/periodica/repository/filesystem',
+      'flickr' => '/home/u865643202/public_html/periodica/repository/flickr',
+      'flickr_public' => '/home/u865643202/public_html/periodica/repository/flickr_public',
+      'googledocs' => '/home/u865643202/public_html/periodica/repository/googledocs',
+      'local' => '/home/u865643202/public_html/periodica/repository/local',
+      'merlot' => '/home/u865643202/public_html/periodica/repository/merlot',
+      'picasa' => '/home/u865643202/public_html/periodica/repository/picasa',
+      'recent' => '/home/u865643202/public_html/periodica/repository/recent',
+      's3' => '/home/u865643202/public_html/periodica/repository/s3',
+      'skydrive' => '/home/u865643202/public_html/periodica/repository/skydrive',
+      'upload' => '/home/u865643202/public_html/periodica/repository/upload',
+      'url' => '/home/u865643202/public_html/periodica/repository/url',
+      'user' => '/home/u865643202/public_html/periodica/repository/user',
+      'webdav' => '/home/u865643202/public_html/periodica/repository/webdav',
+      'wikimedia' => '/home/u865643202/public_html/periodica/repository/wikimedia',
+      'youtube' => '/home/u865643202/public_html/periodica/repository/youtube',
+    ),
+    'portfolio' => 
+    array (
+      'boxnet' => '/home/u865643202/public_html/periodica/portfolio/boxnet',
+      'download' => '/home/u865643202/public_html/periodica/portfolio/download',
+      'flickr' => '/home/u865643202/public_html/periodica/portfolio/flickr',
+      'googledocs' => '/home/u865643202/public_html/periodica/portfolio/googledocs',
+      'mahara' => '/home/u865643202/public_html/periodica/portfolio/mahara',
+      'picasa' => '/home/u865643202/public_html/periodica/portfolio/picasa',
+    ),
+    'qbehaviour' => 
+    array (
+      'adaptive' => '/home/u865643202/public_html/periodica/question/behaviour/adaptive',
+      'adaptivenopenalty' => '/home/u865643202/public_html/periodica/question/behaviour/adaptivenopenalty',
+      'deferredcbm' => '/home/u865643202/public_html/periodica/question/behaviour/deferredcbm',
+      'deferredfeedback' => '/home/u865643202/public_html/periodica/question/behaviour/deferredfeedback',
+      'immediatecbm' => '/home/u865643202/public_html/periodica/question/behaviour/immediatecbm',
+      'immediatefeedback' => '/home/u865643202/public_html/periodica/question/behaviour/immediatefeedback',
+      'informationitem' => '/home/u865643202/public_html/periodica/question/behaviour/informationitem',
+      'interactive' => '/home/u865643202/public_html/periodica/question/behaviour/interactive',
+      'interactivecountback' => '/home/u865643202/public_html/periodica/question/behaviour/interactivecountback',
+      'manualgraded' => '/home/u865643202/public_html/periodica/question/behaviour/manualgraded',
+      'missing' => '/home/u865643202/public_html/periodica/question/behaviour/missing',
+    ),
+    'qformat' => 
+    array (
+      'aiken' => '/home/u865643202/public_html/periodica/question/format/aiken',
+      'blackboard_six' => '/home/u865643202/public_html/periodica/question/format/blackboard_six',
+      'examview' => '/home/u865643202/public_html/periodica/question/format/examview',
+      'gift' => '/home/u865643202/public_html/periodica/question/format/gift',
+      'learnwise' => '/home/u865643202/public_html/periodica/question/format/learnwise',
+      'missingword' => '/home/u865643202/public_html/periodica/question/format/missingword',
+      'multianswer' => '/home/u865643202/public_html/periodica/question/format/multianswer',
+      'webct' => '/home/u865643202/public_html/periodica/question/format/webct',
+      'xhtml' => '/home/u865643202/public_html/periodica/question/format/xhtml',
+      'xml' => '/home/u865643202/public_html/periodica/question/format/xml',
+    ),
+    'plagiarism' => 
+    array (
+    ),
+    'tool' => 
+    array (
+      'assignmentupgrade' => '/home/u865643202/public_html/periodica/admin/tool/assignmentupgrade',
+      'behat' => '/home/u865643202/public_html/periodica/admin/tool/behat',
+      'capability' => '/home/u865643202/public_html/periodica/admin/tool/capability',
+      'customlang' => '/home/u865643202/public_html/periodica/admin/tool/customlang',
+      'dbtransfer' => '/home/u865643202/public_html/periodica/admin/tool/dbtransfer',
+      'generator' => '/home/u865643202/public_html/periodica/admin/tool/generator',
+      'health' => '/home/u865643202/public_html/periodica/admin/tool/health',
+      'innodb' => '/home/u865643202/public_html/periodica/admin/tool/innodb',
+      'installaddon' => '/home/u865643202/public_html/periodica/admin/tool/installaddon',
+      'langimport' => '/home/u865643202/public_html/periodica/admin/tool/langimport',
+      'multilangupgrade' => '/home/u865643202/public_html/periodica/admin/tool/multilangupgrade',
+      'phpunit' => '/home/u865643202/public_html/periodica/admin/tool/phpunit',
+      'profiling' => '/home/u865643202/public_html/periodica/admin/tool/profiling',
+      'qeupgradehelper' => '/home/u865643202/public_html/periodica/admin/tool/qeupgradehelper',
+      'replace' => '/home/u865643202/public_html/periodica/admin/tool/replace',
+      'spamcleaner' => '/home/u865643202/public_html/periodica/admin/tool/spamcleaner',
+      'timezoneimport' => '/home/u865643202/public_html/periodica/admin/tool/timezoneimport',
+      'unsuproles' => '/home/u865643202/public_html/periodica/admin/tool/unsuproles',
+      'uploadcourse' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse',
+      'uploaduser' => '/home/u865643202/public_html/periodica/admin/tool/uploaduser',
+      'xmldb' => '/home/u865643202/public_html/periodica/admin/tool/xmldb',
+    ),
+    'cachestore' => 
+    array (
+      'file' => '/home/u865643202/public_html/periodica/cache/stores/file',
+      'memcache' => '/home/u865643202/public_html/periodica/cache/stores/memcache',
+      'memcached' => '/home/u865643202/public_html/periodica/cache/stores/memcached',
+      'mongodb' => '/home/u865643202/public_html/periodica/cache/stores/mongodb',
+      'session' => '/home/u865643202/public_html/periodica/cache/stores/session',
+      'static' => '/home/u865643202/public_html/periodica/cache/stores/static',
+    ),
+    'cachelock' => 
+    array (
+      'file' => '/home/u865643202/public_html/periodica/cache/locks/file',
+    ),
+    'theme' => 
+    array (
+      'afterburner' => '/home/u865643202/public_html/periodica/theme/afterburner',
+      'anomaly' => '/home/u865643202/public_html/periodica/theme/anomaly',
+      'arialist' => '/home/u865643202/public_html/periodica/theme/arialist',
+      'base' => '/home/u865643202/public_html/periodica/theme/base',
+      'binarius' => '/home/u865643202/public_html/periodica/theme/binarius',
+      'bootstrapbase' => '/home/u865643202/public_html/periodica/theme/bootstrapbase',
+      'boxxie' => '/home/u865643202/public_html/periodica/theme/boxxie',
+      'brick' => '/home/u865643202/public_html/periodica/theme/brick',
+      'canvas' => '/home/u865643202/public_html/periodica/theme/canvas',
+      'clean' => '/home/u865643202/public_html/periodica/theme/clean',
+      'formal_white' => '/home/u865643202/public_html/periodica/theme/formal_white',
+      'formfactor' => '/home/u865643202/public_html/periodica/theme/formfactor',
+      'fusion' => '/home/u865643202/public_html/periodica/theme/fusion',
+      'leatherbound' => '/home/u865643202/public_html/periodica/theme/leatherbound',
+      'magazine' => '/home/u865643202/public_html/periodica/theme/magazine',
+      'nimble' => '/home/u865643202/public_html/periodica/theme/nimble',
+      'nonzero' => '/home/u865643202/public_html/periodica/theme/nonzero',
+      'overlay' => '/home/u865643202/public_html/periodica/theme/overlay',
+      'serenity' => '/home/u865643202/public_html/periodica/theme/serenity',
+      'sky_high' => '/home/u865643202/public_html/periodica/theme/sky_high',
+      'splash' => '/home/u865643202/public_html/periodica/theme/splash',
+      'standard' => '/home/u865643202/public_html/periodica/theme/standard',
+      'standardold' => '/home/u865643202/public_html/periodica/theme/standardold',
+    ),
+    'assignsubmission' => 
+    array (
+      'comments' => '/home/u865643202/public_html/periodica/mod/assign/submission/comments',
+      'file' => '/home/u865643202/public_html/periodica/mod/assign/submission/file',
+      'onlinetext' => '/home/u865643202/public_html/periodica/mod/assign/submission/onlinetext',
+    ),
+    'assignfeedback' => 
+    array (
+      'comments' => '/home/u865643202/public_html/periodica/mod/assign/feedback/comments',
+      'editpdf' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf',
+      'file' => '/home/u865643202/public_html/periodica/mod/assign/feedback/file',
+      'offline' => '/home/u865643202/public_html/periodica/mod/assign/feedback/offline',
+    ),
+    'assignment' => 
+    array (
+      'offline' => '/home/u865643202/public_html/periodica/mod/assignment/type/offline',
+      'online' => '/home/u865643202/public_html/periodica/mod/assignment/type/online',
+      'upload' => '/home/u865643202/public_html/periodica/mod/assignment/type/upload',
+      'uploadsingle' => '/home/u865643202/public_html/periodica/mod/assignment/type/uploadsingle',
+    ),
+    'booktool' => 
+    array (
+      'exportimscp' => '/home/u865643202/public_html/periodica/mod/book/tool/exportimscp',
+      'importhtml' => '/home/u865643202/public_html/periodica/mod/book/tool/importhtml',
+      'print' => '/home/u865643202/public_html/periodica/mod/book/tool/print',
+    ),
+    'datafield' => 
+    array (
+      'checkbox' => '/home/u865643202/public_html/periodica/mod/data/field/checkbox',
+      'date' => '/home/u865643202/public_html/periodica/mod/data/field/date',
+      'file' => '/home/u865643202/public_html/periodica/mod/data/field/file',
+      'latlong' => '/home/u865643202/public_html/periodica/mod/data/field/latlong',
+      'menu' => '/home/u865643202/public_html/periodica/mod/data/field/menu',
+      'multimenu' => '/home/u865643202/public_html/periodica/mod/data/field/multimenu',
+      'number' => '/home/u865643202/public_html/periodica/mod/data/field/number',
+      'picture' => '/home/u865643202/public_html/periodica/mod/data/field/picture',
+      'radiobutton' => '/home/u865643202/public_html/periodica/mod/data/field/radiobutton',
+      'text' => '/home/u865643202/public_html/periodica/mod/data/field/text',
+      'textarea' => '/home/u865643202/public_html/periodica/mod/data/field/textarea',
+      'url' => '/home/u865643202/public_html/periodica/mod/data/field/url',
+    ),
+    'datapreset' => 
+    array (
+      'imagegallery' => '/home/u865643202/public_html/periodica/mod/data/preset/imagegallery',
+    ),
+    'ltisource' => 
+    array (
+    ),
+    'quiz' => 
+    array (
+      'grading' => '/home/u865643202/public_html/periodica/mod/quiz/report/grading',
+      'overview' => '/home/u865643202/public_html/periodica/mod/quiz/report/overview',
+      'responses' => '/home/u865643202/public_html/periodica/mod/quiz/report/responses',
+      'statistics' => '/home/u865643202/public_html/periodica/mod/quiz/report/statistics',
+    ),
+    'quizaccess' => 
+    array (
+      'delaybetweenattempts' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/delaybetweenattempts',
+      'ipaddress' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/ipaddress',
+      'numattempts' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/numattempts',
+      'openclosedate' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/openclosedate',
+      'password' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/password',
+      'safebrowser' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/safebrowser',
+      'securewindow' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/securewindow',
+      'timelimit' => '/home/u865643202/public_html/periodica/mod/quiz/accessrule/timelimit',
+    ),
+    'scormreport' => 
+    array (
+      'basic' => '/home/u865643202/public_html/periodica/mod/scorm/report/basic',
+      'graphs' => '/home/u865643202/public_html/periodica/mod/scorm/report/graphs',
+      'interactions' => '/home/u865643202/public_html/periodica/mod/scorm/report/interactions',
+      'objectives' => '/home/u865643202/public_html/periodica/mod/scorm/report/objectives',
+    ),
+    'workshopform' => 
+    array (
+      'accumulative' => '/home/u865643202/public_html/periodica/mod/workshop/form/accumulative',
+      'comments' => '/home/u865643202/public_html/periodica/mod/workshop/form/comments',
+      'numerrors' => '/home/u865643202/public_html/periodica/mod/workshop/form/numerrors',
+      'rubric' => '/home/u865643202/public_html/periodica/mod/workshop/form/rubric',
+    ),
+    'workshopallocation' => 
+    array (
+      'manual' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/manual',
+      'random' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/random',
+      'scheduled' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/scheduled',
+    ),
+    'workshopeval' => 
+    array (
+      'best' => '/home/u865643202/public_html/periodica/mod/workshop/eval/best',
+    ),
+    'tinymce' => 
+    array (
+      'ctrlhelp' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/ctrlhelp',
+      'dragmath' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/dragmath',
+      'managefiles' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/managefiles',
+      'moodleemoticon' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodleemoticon',
+      'moodleimage' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodleimage',
+      'moodlemedia' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodlemedia',
+      'moodlenolink' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodlenolink',
+      'pdw' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/pdw',
+      'spellchecker' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker',
+      'wrap' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/wrap',
+    ),
+    'local' => 
+    array (
+    ),
+  ),
+  'parents' => 
+  array (
+    'assignsubmission' => 'mod_assign',
+    'assignfeedback' => 'mod_assign',
+    'assignment' => 'mod_assignment',
+    'booktool' => 'mod_book',
+    'datafield' => 'mod_data',
+    'datapreset' => 'mod_data',
+    'ltisource' => 'mod_lti',
+    'quiz' => 'mod_quiz',
+    'quizaccess' => 'mod_quiz',
+    'scormreport' => 'mod_scorm',
+    'workshopform' => 'mod_workshop',
+    'workshopallocation' => 'mod_workshop',
+    'workshopeval' => 'mod_workshop',
+    'tinymce' => 'editor_tinymce',
+  ),
+  'subplugins' => 
+  array (
+    'mod_assign' => 
+    array (
+      'assignsubmission' => 
+      array (
+        0 => 'comments',
+        1 => 'file',
+        2 => 'onlinetext',
+      ),
+      'assignfeedback' => 
+      array (
+        0 => 'comments',
+        1 => 'editpdf',
+        2 => 'file',
+        3 => 'offline',
+      ),
+    ),
+    'mod_assignment' => 
+    array (
+      'assignment' => 
+      array (
+        0 => 'offline',
+        1 => 'online',
+        2 => 'upload',
+        3 => 'uploadsingle',
+      ),
+    ),
+    'mod_book' => 
+    array (
+      'booktool' => 
+      array (
+        0 => 'exportimscp',
+        1 => 'importhtml',
+        2 => 'print',
+      ),
+    ),
+    'mod_data' => 
+    array (
+      'datafield' => 
+      array (
+        0 => 'checkbox',
+        1 => 'date',
+        2 => 'file',
+        3 => 'latlong',
+        4 => 'menu',
+        5 => 'multimenu',
+        6 => 'number',
+        7 => 'picture',
+        8 => 'radiobutton',
+        9 => 'text',
+        10 => 'textarea',
+        11 => 'url',
+      ),
+      'datapreset' => 
+      array (
+        0 => 'imagegallery',
+      ),
+    ),
+    'mod_lti' => 
+    array (
+      'ltisource' => 
+      array (
+      ),
+    ),
+    'mod_quiz' => 
+    array (
+      'quiz' => 
+      array (
+        0 => 'grading',
+        1 => 'overview',
+        2 => 'responses',
+        3 => 'statistics',
+      ),
+      'quizaccess' => 
+      array (
+        0 => 'delaybetweenattempts',
+        1 => 'ipaddress',
+        2 => 'numattempts',
+        3 => 'openclosedate',
+        4 => 'password',
+        5 => 'safebrowser',
+        6 => 'securewindow',
+        7 => 'timelimit',
+      ),
+    ),
+    'mod_scorm' => 
+    array (
+      'scormreport' => 
+      array (
+        0 => 'basic',
+        1 => 'graphs',
+        2 => 'interactions',
+        3 => 'objectives',
+      ),
+    ),
+    'mod_workshop' => 
+    array (
+      'workshopform' => 
+      array (
+        0 => 'accumulative',
+        1 => 'comments',
+        2 => 'numerrors',
+        3 => 'rubric',
+      ),
+      'workshopallocation' => 
+      array (
+        0 => 'manual',
+        1 => 'random',
+        2 => 'scheduled',
+      ),
+      'workshopeval' => 
+      array (
+        0 => 'best',
+      ),
+    ),
+    'editor_tinymce' => 
+    array (
+      'tinymce' => 
+      array (
+        0 => 'ctrlhelp',
+        1 => 'dragmath',
+        2 => 'managefiles',
+        3 => 'moodleemoticon',
+        4 => 'moodleimage',
+        5 => 'moodlemedia',
+        6 => 'moodlenolink',
+        7 => 'pdw',
+        8 => 'spellchecker',
+        9 => 'wrap',
+      ),
+    ),
+  ),
+  'classmap' => 
+  array (
+    'core_collator' => '/home/u865643202/public_html/periodica/lib/classes/collator.php',
+    'core\\collator' => '/home/u865643202/public_html/periodica/lib/classes/collator.php',
+    'core_string_manager' => '/home/u865643202/public_html/periodica/lib/classes/string_manager.php',
+    'core\\string_manager' => '/home/u865643202/public_html/periodica/lib/classes/string_manager.php',
+    'core\\session\\database' => '/home/u865643202/public_html/periodica/lib/classes/session/database.php',
+    'core\\session\\file' => '/home/u865643202/public_html/periodica/lib/classes/session/file.php',
+    'core\\session\\exception' => '/home/u865643202/public_html/periodica/lib/classes/session/exception.php',
+    'core\\session\\handler' => '/home/u865643202/public_html/periodica/lib/classes/session/handler.php',
+    'core\\session\\manager' => '/home/u865643202/public_html/periodica/lib/classes/session/manager.php',
+    'core\\session\\memcached' => '/home/u865643202/public_html/periodica/lib/classes/session/memcached.php',
+    'core_component' => '/home/u865643202/public_html/periodica/lib/classes/component.php',
+    'core\\component' => '/home/u865643202/public_html/periodica/lib/classes/component.php',
+    'core\\plugininfo\\mnetservice' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/mnetservice.php',
+    'core\\plugininfo\\local' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/local.php',
+    'core\\plugininfo\\filter' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/filter.php',
+    'core\\plugininfo\\cachestore' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/cachestore.php',
+    'core\\plugininfo\\theme' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/theme.php',
+    'core\\plugininfo\\report' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/report.php',
+    'core\\plugininfo\\orphaned' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/orphaned.php',
+    'core\\plugininfo\\coursereport' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/coursereport.php',
+    'core\\plugininfo\\message' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/message.php',
+    'core\\plugininfo\\editor' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/editor.php',
+    'core\\plugininfo\\gradingform' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/gradingform.php',
+    'core\\plugininfo\\base' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/base.php',
+    'core\\plugininfo\\general' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/general.php',
+    'core\\plugininfo\\format' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/format.php',
+    'core\\plugininfo\\gradeimport' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/gradeimport.php',
+    'core\\plugininfo\\qtype' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/qtype.php',
+    'core\\plugininfo\\gradereport' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/gradereport.php',
+    'core\\plugininfo\\plagiarism' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/plagiarism.php',
+    'core\\plugininfo\\calendartype' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/calendartype.php',
+    'core\\plugininfo\\portfolio' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/portfolio.php',
+    'core\\plugininfo\\block' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/block.php',
+    'core\\plugininfo\\auth' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/auth.php',
+    'core\\plugininfo\\cachelock' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/cachelock.php',
+    'core\\plugininfo\\enrol' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/enrol.php',
+    'core\\plugininfo\\gradeexport' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/gradeexport.php',
+    'core\\plugininfo\\profilefield' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/profilefield.php',
+    'core\\plugininfo\\qbehaviour' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/qbehaviour.php',
+    'core\\plugininfo\\mod' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/mod.php',
+    'core\\plugininfo\\tool' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/tool.php',
+    'core\\plugininfo\\repository' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/repository.php',
+    'core\\plugininfo\\qformat' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/qformat.php',
+    'core\\plugininfo\\webservice' => '/home/u865643202/public_html/periodica/lib/classes/plugininfo/webservice.php',
+    'core_minify' => '/home/u865643202/public_html/periodica/lib/classes/minify.php',
+    'core\\minify' => '/home/u865643202/public_html/periodica/lib/classes/minify.php',
+    'core_text' => '/home/u865643202/public_html/periodica/lib/classes/text.php',
+    'core\\text' => '/home/u865643202/public_html/periodica/lib/classes/text.php',
+    'core_string_manager_standard' => '/home/u865643202/public_html/periodica/lib/classes/string_manager_standard.php',
+    'core\\string_manager_standard' => '/home/u865643202/public_html/periodica/lib/classes/string_manager_standard.php',
+    'core_user' => '/home/u865643202/public_html/periodica/lib/classes/user.php',
+    'core\\user' => '/home/u865643202/public_html/periodica/lib/classes/user.php',
+    'core_shutdown_manager' => '/home/u865643202/public_html/periodica/lib/classes/shutdown_manager.php',
+    'core\\shutdown_manager' => '/home/u865643202/public_html/periodica/lib/classes/shutdown_manager.php',
+    'core_string_manager_install' => '/home/u865643202/public_html/periodica/lib/classes/string_manager_install.php',
+    'core\\string_manager_install' => '/home/u865643202/public_html/periodica/lib/classes/string_manager_install.php',
+    'core_useragent' => '/home/u865643202/public_html/periodica/lib/classes/useragent.php',
+    'core\\useragent' => '/home/u865643202/public_html/periodica/lib/classes/useragent.php',
+    'core\\update\\checker' => '/home/u865643202/public_html/periodica/lib/classes/update/checker.php',
+    'core\\update\\deployer' => '/home/u865643202/public_html/periodica/lib/classes/update/deployer.php',
+    'core\\update\\checker_exception' => '/home/u865643202/public_html/periodica/lib/classes/update/checker_exception.php',
+    'core\\update\\info' => '/home/u865643202/public_html/periodica/lib/classes/update/info.php',
+    'core\\event\\webservice_service_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_service_updated.php',
+    'core\\event\\group_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/group_updated.php',
+    'core\\event\\role_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/role_deleted.php',
+    'core\\event\\role_allow_switch_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/role_allow_switch_updated.php',
+    'core\\event\\assessable_submitted' => '/home/u865643202/public_html/periodica/lib/classes/event/assessable_submitted.php',
+    'core\\event\\notes_viewed' => '/home/u865643202/public_html/periodica/lib/classes/event/notes_viewed.php',
+    'core\\event\\user_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/user_updated.php',
+    'core\\event\\course_completed' => '/home/u865643202/public_html/periodica/lib/classes/event/course_completed.php',
+    'core\\event\\user_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/user_deleted.php',
+    'core\\event\\note_created' => '/home/u865643202/public_html/periodica/lib/classes/event/note_created.php',
+    'core\\event\\note_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/note_deleted.php',
+    'core\\event\\grouping_created' => '/home/u865643202/public_html/periodica/lib/classes/event/grouping_created.php',
+    'core\\event\\user_enrolment_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/user_enrolment_deleted.php',
+    'core\\event\\course_reset_ended' => '/home/u865643202/public_html/periodica/lib/classes/event/course_reset_ended.php',
+    'core\\event\\user_enrolment_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/user_enrolment_updated.php',
+    'core\\event\\group_member_removed' => '/home/u865643202/public_html/periodica/lib/classes/event/group_member_removed.php',
+    'core\\event\\cohort_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/cohort_deleted.php',
+    'core\\event\\role_assigned' => '/home/u865643202/public_html/periodica/lib/classes/event/role_assigned.php',
+    'core\\event\\blog_entry_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/blog_entry_updated.php',
+    'core\\event\\user_created' => '/home/u865643202/public_html/periodica/lib/classes/event/user_created.php',
+    'core\\event\\base' => '/home/u865643202/public_html/periodica/lib/classes/event/base.php',
+    'core\\event\\cohort_member_added' => '/home/u865643202/public_html/periodica/lib/classes/event/cohort_member_added.php',
+    'core\\event\\user_loggedout' => '/home/u865643202/public_html/periodica/lib/classes/event/user_loggedout.php',
+    'core\\event\\course_created' => '/home/u865643202/public_html/periodica/lib/classes/event/course_created.php',
+    'core\\event\\user_enrolment_created' => '/home/u865643202/public_html/periodica/lib/classes/event/user_enrolment_created.php',
+    'core\\event\\blog_entry_created' => '/home/u865643202/public_html/periodica/lib/classes/event/blog_entry_created.php',
+    'core\\event\\user_loggedin' => '/home/u865643202/public_html/periodica/lib/classes/event/user_loggedin.php',
+    'core\\event\\webservice_service_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_service_deleted.php',
+    'core\\event\\note_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/note_updated.php',
+    'core\\event\\group_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/group_deleted.php',
+    'core\\event\\content_viewed' => '/home/u865643202/public_html/periodica/lib/classes/event/content_viewed.php',
+    'core\\event\\course_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/course_updated.php',
+    'core\\event\\user_profile_viewed' => '/home/u865643202/public_html/periodica/lib/classes/event/user_profile_viewed.php',
+    'core\\event\\user_list_viewed' => '/home/u865643202/public_html/periodica/lib/classes/event/user_list_viewed.php',
+    'core\\event\\course_module_completion_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/course_module_completion_updated.php',
+    'core\\event\\webservice_service_user_removed' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_service_user_removed.php',
+    'core\\event\\webservice_function_called' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_function_called.php',
+    'core\\event\\webservice_service_created' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_service_created.php',
+    'core\\event\\course_module_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/course_module_deleted.php',
+    'core\\event\\course_module_created' => '/home/u865643202/public_html/periodica/lib/classes/event/course_module_created.php',
+    'core\\event\\blog_entry_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/blog_entry_deleted.php',
+    'core\\event\\course_module_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/course_module_updated.php',
+    'core\\event\\course_category_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/course_category_deleted.php',
+    'core\\event\\cohort_member_removed' => '/home/u865643202/public_html/periodica/lib/classes/event/cohort_member_removed.php',
+    'core\\event\\grouping_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/grouping_deleted.php',
+    'core\\event\\role_allow_assign_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/role_allow_assign_updated.php',
+    'core\\event\\manager' => '/home/u865643202/public_html/periodica/lib/classes/event/manager.php',
+    'core\\event\\webservice_token_sent' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_token_sent.php',
+    'core\\event\\course_content_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/course_content_deleted.php',
+    'core\\event\\cohort_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/cohort_updated.php',
+    'core\\event\\user_loggedinas' => '/home/u865643202/public_html/periodica/lib/classes/event/user_loggedinas.php',
+    'core\\event\\course_module_instances_list_viewed' => '/home/u865643202/public_html/periodica/lib/classes/event/course_module_instances_list_viewed.php',
+    'core\\event\\group_created' => '/home/u865643202/public_html/periodica/lib/classes/event/group_created.php',
+    'core\\event\\role_unassigned' => '/home/u865643202/public_html/periodica/lib/classes/event/role_unassigned.php',
+    'core\\event\\course_section_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/course_section_updated.php',
+    'core\\event\\role_allow_override_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/role_allow_override_updated.php',
+    'core\\event\\assessable_uploaded' => '/home/u865643202/public_html/periodica/lib/classes/event/assessable_uploaded.php',
+    'core\\event\\course_restored' => '/home/u865643202/public_html/periodica/lib/classes/event/course_restored.php',
+    'core\\event\\webservice_token_created' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_token_created.php',
+    'core\\event\\course_reset_started' => '/home/u865643202/public_html/periodica/lib/classes/event/course_reset_started.php',
+    'core\\event\\role_capabilities_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/role_capabilities_updated.php',
+    'core\\event\\webservice_login_failed' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_login_failed.php',
+    'core\\event\\course_completion_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/course_completion_updated.php',
+    'core\\event\\course_deleted' => '/home/u865643202/public_html/periodica/lib/classes/event/course_deleted.php',
+    'core\\event\\cohort_created' => '/home/u865643202/public_html/periodica/lib/classes/event/cohort_created.php',
+    'core\\event\\webservice_service_user_added' => '/home/u865643202/public_html/periodica/lib/classes/event/webservice_service_user_added.php',
+    'core\\event\\group_member_added' => '/home/u865643202/public_html/periodica/lib/classes/event/group_member_added.php',
+    'core\\event\\grouping_updated' => '/home/u865643202/public_html/periodica/lib/classes/event/grouping_updated.php',
+    'core_plugin_manager' => '/home/u865643202/public_html/periodica/lib/classes/plugin_manager.php',
+    'core\\plugin_manager' => '/home/u865643202/public_html/periodica/lib/classes/plugin_manager.php',
+    'core_badges_assertion' => '/home/u865643202/public_html/periodica/badges/classes/assertion.php',
+    'core_badges\\assertion' => '/home/u865643202/public_html/periodica/badges/classes/assertion.php',
+    'core_badges_observer' => '/home/u865643202/public_html/periodica/badges/classes/observer.php',
+    'core_badges\\observer' => '/home/u865643202/public_html/periodica/badges/classes/observer.php',
+    'core_cache_factory' => '/home/u865643202/public_html/periodica/cache/classes/factory.php',
+    'core_cache\\factory' => '/home/u865643202/public_html/periodica/cache/classes/factory.php',
+    'core_cache_definition' => '/home/u865643202/public_html/periodica/cache/classes/definition.php',
+    'core_cache\\definition' => '/home/u865643202/public_html/periodica/cache/classes/definition.php',
+    'core_cache_config' => '/home/u865643202/public_html/periodica/cache/classes/config.php',
+    'core_cache\\config' => '/home/u865643202/public_html/periodica/cache/classes/config.php',
+    'core_cache_store' => '/home/u865643202/public_html/periodica/cache/classes/store.php',
+    'core_cache\\store' => '/home/u865643202/public_html/periodica/cache/classes/store.php',
+    'core_cache_interfaces' => '/home/u865643202/public_html/periodica/cache/classes/interfaces.php',
+    'core_cache\\interfaces' => '/home/u865643202/public_html/periodica/cache/classes/interfaces.php',
+    'core_cache_dummystore' => '/home/u865643202/public_html/periodica/cache/classes/dummystore.php',
+    'core_cache\\dummystore' => '/home/u865643202/public_html/periodica/cache/classes/dummystore.php',
+    'core_cache_loaders' => '/home/u865643202/public_html/periodica/cache/classes/loaders.php',
+    'core_cache\\loaders' => '/home/u865643202/public_html/periodica/cache/classes/loaders.php',
+    'core_cache_helper' => '/home/u865643202/public_html/periodica/cache/classes/helper.php',
+    'core_cache\\helper' => '/home/u865643202/public_html/periodica/cache/classes/helper.php',
+    'core_calendar_type_base' => '/home/u865643202/public_html/periodica/calendar/classes/type_base.php',
+    'core_calendar\\type_base' => '/home/u865643202/public_html/periodica/calendar/classes/type_base.php',
+    'core_calendar_type_factory' => '/home/u865643202/public_html/periodica/calendar/classes/type_factory.php',
+    'core_calendar\\type_factory' => '/home/u865643202/public_html/periodica/calendar/classes/type_factory.php',
+    'core_course_deletecategory_form' => '/home/u865643202/public_html/periodica/course/classes/deletecategory_form.php',
+    'core_course\\deletecategory_form' => '/home/u865643202/public_html/periodica/course/classes/deletecategory_form.php',
+    'core_course\\management\\helper' => '/home/u865643202/public_html/periodica/course/classes/management/helper.php',
+    'core_course_management_renderer' => '/home/u865643202/public_html/periodica/course/classes/management_renderer.php',
+    'core_course\\management_renderer' => '/home/u865643202/public_html/periodica/course/classes/management_renderer.php',
+    'core_course_editcategory_form' => '/home/u865643202/public_html/periodica/course/classes/editcategory_form.php',
+    'core_course\\editcategory_form' => '/home/u865643202/public_html/periodica/course/classes/editcategory_form.php',
+    'core_question\\statistics\\questions\\calculated' => '/home/u865643202/public_html/periodica/question/classes/statistics/questions/calculated.php',
+    'core_question\\statistics\\questions\\calculated_for_subquestion' => '/home/u865643202/public_html/periodica/question/classes/statistics/questions/calculated_for_subquestion.php',
+    'core_question\\statistics\\questions\\calculator' => '/home/u865643202/public_html/periodica/question/classes/statistics/questions/calculator.php',
+    'core_question\\statistics\\responses\\analysis_for_question' => '/home/u865643202/public_html/periodica/question/classes/statistics/responses/analysis_for_question.php',
+    'core_question\\statistics\\responses\\analysis_for_subpart' => '/home/u865643202/public_html/periodica/question/classes/statistics/responses/analysis_for_subpart.php',
+    'core_question\\statistics\\responses\\analysis_for_class' => '/home/u865643202/public_html/periodica/question/classes/statistics/responses/analysis_for_class.php',
+    'core_question\\statistics\\responses\\analysis_for_actual_response' => '/home/u865643202/public_html/periodica/question/classes/statistics/responses/analysis_for_actual_response.php',
+    'core_question\\statistics\\responses\\analyser' => '/home/u865643202/public_html/periodica/question/classes/statistics/responses/analyser.php',
+    'core_role_override_permissions_table_advanced' => '/home/u865643202/public_html/periodica/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role\\override_permissions_table_advanced' => '/home/u865643202/public_html/periodica/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role_admins_existing_selector' => '/home/u865643202/public_html/periodica/admin/roles/classes/admins_existing_selector.php',
+    'core_role\\admins_existing_selector' => '/home/u865643202/public_html/periodica/admin/roles/classes/admins_existing_selector.php',
+    'core_role_preset' => '/home/u865643202/public_html/periodica/admin/roles/classes/preset.php',
+    'core_role\\preset' => '/home/u865643202/public_html/periodica/admin/roles/classes/preset.php',
+    'core_role_capability_table_base' => '/home/u865643202/public_html/periodica/admin/roles/classes/capability_table_base.php',
+    'core_role\\capability_table_base' => '/home/u865643202/public_html/periodica/admin/roles/classes/capability_table_base.php',
+    'core_role_define_role_table_advanced' => '/home/u865643202/public_html/periodica/admin/roles/classes/define_role_table_advanced.php',
+    'core_role\\define_role_table_advanced' => '/home/u865643202/public_html/periodica/admin/roles/classes/define_role_table_advanced.php',
+    'core_role_potential_assignees_below_course' => '/home/u865643202/public_html/periodica/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role\\potential_assignees_below_course' => '/home/u865643202/public_html/periodica/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role_check_users_selector' => '/home/u865643202/public_html/periodica/admin/roles/classes/check_users_selector.php',
+    'core_role\\check_users_selector' => '/home/u865643202/public_html/periodica/admin/roles/classes/check_users_selector.php',
+    'core_role_allow_assign_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_assign_page.php',
+    'core_role\\allow_assign_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_assign_page.php',
+    'core_role_capability_table_with_risks' => '/home/u865643202/public_html/periodica/admin/roles/classes/capability_table_with_risks.php',
+    'core_role\\capability_table_with_risks' => '/home/u865643202/public_html/periodica/admin/roles/classes/capability_table_with_risks.php',
+    'core_role_admins_potential_selector' => '/home/u865643202/public_html/periodica/admin/roles/classes/admins_potential_selector.php',
+    'core_role\\admins_potential_selector' => '/home/u865643202/public_html/periodica/admin/roles/classes/admins_potential_selector.php',
+    'core_role_allow_role_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_role_page.php',
+    'core_role\\allow_role_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_role_page.php',
+    'core_role_existing_role_holders' => '/home/u865643202/public_html/periodica/admin/roles/classes/existing_role_holders.php',
+    'core_role\\existing_role_holders' => '/home/u865643202/public_html/periodica/admin/roles/classes/existing_role_holders.php',
+    'core_role_permission_allow_form' => '/home/u865643202/public_html/periodica/admin/roles/classes/permission_allow_form.php',
+    'core_role\\permission_allow_form' => '/home/u865643202/public_html/periodica/admin/roles/classes/permission_allow_form.php',
+    'core_role_allow_override_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_override_page.php',
+    'core_role\\allow_override_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_override_page.php',
+    'core_role_permissions_table' => '/home/u865643202/public_html/periodica/admin/roles/classes/permissions_table.php',
+    'core_role\\permissions_table' => '/home/u865643202/public_html/periodica/admin/roles/classes/permissions_table.php',
+    'core_role_allow_switch_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_switch_page.php',
+    'core_role\\allow_switch_page' => '/home/u865643202/public_html/periodica/admin/roles/classes/allow_switch_page.php',
+    'core_role_define_role_table_basic' => '/home/u865643202/public_html/periodica/admin/roles/classes/define_role_table_basic.php',
+    'core_role\\define_role_table_basic' => '/home/u865643202/public_html/periodica/admin/roles/classes/define_role_table_basic.php',
+    'core_role_potential_assignees_course_and_above' => '/home/u865643202/public_html/periodica/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role\\potential_assignees_course_and_above' => '/home/u865643202/public_html/periodica/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role_assign_user_selector_base' => '/home/u865643202/public_html/periodica/admin/roles/classes/assign_user_selector_base.php',
+    'core_role\\assign_user_selector_base' => '/home/u865643202/public_html/periodica/admin/roles/classes/assign_user_selector_base.php',
+    'core_role_check_capability_table' => '/home/u865643202/public_html/periodica/admin/roles/classes/check_capability_table.php',
+    'core_role\\check_capability_table' => '/home/u865643202/public_html/periodica/admin/roles/classes/check_capability_table.php',
+    'core_role_permission_prohibit_form' => '/home/u865643202/public_html/periodica/admin/roles/classes/permission_prohibit_form.php',
+    'core_role\\permission_prohibit_form' => '/home/u865643202/public_html/periodica/admin/roles/classes/permission_prohibit_form.php',
+    'core_role_view_role_definition_table' => '/home/u865643202/public_html/periodica/admin/roles/classes/view_role_definition_table.php',
+    'core_role\\view_role_definition_table' => '/home/u865643202/public_html/periodica/admin/roles/classes/view_role_definition_table.php',
+    'core_role_preset_form' => '/home/u865643202/public_html/periodica/admin/roles/classes/preset_form.php',
+    'core_role\\preset_form' => '/home/u865643202/public_html/periodica/admin/roles/classes/preset_form.php',
+    'mod_assign\\plugininfo\\assignsubmission' => '/home/u865643202/public_html/periodica/mod/assign/classes/plugininfo/assignsubmission.php',
+    'mod_assign\\plugininfo\\assignfeedback' => '/home/u865643202/public_html/periodica/mod/assign/classes/plugininfo/assignfeedback.php',
+    'mod_assign\\event\\submission_unlocked' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/submission_unlocked.php',
+    'mod_assign\\event\\submission_locked' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/submission_locked.php',
+    'mod_assign\\event\\assessable_submitted' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/assessable_submitted.php',
+    'mod_assign\\event\\submission_status_updated' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/submission_status_updated.php',
+    'mod_assign\\event\\marker_updated' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/marker_updated.php',
+    'mod_assign\\event\\submission_updated' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/submission_updated.php',
+    'mod_assign\\event\\workflow_state_updated' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/workflow_state_updated.php',
+    'mod_assign\\event\\all_submissions_downloaded' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/all_submissions_downloaded.php',
+    'mod_assign\\event\\extension_granted' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/extension_granted.php',
+    'mod_assign\\event\\statement_accepted' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/statement_accepted.php',
+    'mod_assign\\event\\submission_graded' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/submission_graded.php',
+    'mod_assign\\event\\identities_revealed' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/identities_revealed.php',
+    'mod_assign\\event\\submission_duplicated' => '/home/u865643202/public_html/periodica/mod/assign/classes/event/submission_duplicated.php',
+    'mod_assignment\\plugininfo\\assignment' => '/home/u865643202/public_html/periodica/mod/assignment/classes/plugininfo/assignment.php',
+    'mod_book\\plugininfo\\booktool' => '/home/u865643202/public_html/periodica/mod/book/classes/plugininfo/booktool.php',
+    'mod_book\\event\\chapter_updated' => '/home/u865643202/public_html/periodica/mod/book/classes/event/chapter_updated.php',
+    'mod_book\\event\\instances_list_viewed' => '/home/u865643202/public_html/periodica/mod/book/classes/event/instances_list_viewed.php',
+    'mod_book\\event\\course_module_viewed' => '/home/u865643202/public_html/periodica/mod/book/classes/event/course_module_viewed.php',
+    'mod_book\\event\\chapter_viewed' => '/home/u865643202/public_html/periodica/mod/book/classes/event/chapter_viewed.php',
+    'mod_book\\event\\chapter_deleted' => '/home/u865643202/public_html/periodica/mod/book/classes/event/chapter_deleted.php',
+    'mod_book\\event\\chapter_created' => '/home/u865643202/public_html/periodica/mod/book/classes/event/chapter_created.php',
+    'mod_chat\\event\\instances_list_viewed' => '/home/u865643202/public_html/periodica/mod/chat/classes/event/instances_list_viewed.php',
+    'mod_chat\\event\\message_sent' => '/home/u865643202/public_html/periodica/mod/chat/classes/event/message_sent.php',
+    'mod_chat\\event\\sessions_viewed' => '/home/u865643202/public_html/periodica/mod/chat/classes/event/sessions_viewed.php',
+    'mod_choice\\event\\answer_submitted' => '/home/u865643202/public_html/periodica/mod/choice/classes/event/answer_submitted.php',
+    'mod_choice\\event\\instances_list_viewed' => '/home/u865643202/public_html/periodica/mod/choice/classes/event/instances_list_viewed.php',
+    'mod_choice\\event\\report_viewed' => '/home/u865643202/public_html/periodica/mod/choice/classes/event/report_viewed.php',
+    'mod_choice\\event\\course_module_viewed' => '/home/u865643202/public_html/periodica/mod/choice/classes/event/course_module_viewed.php',
+    'mod_choice\\event\\answer_updated' => '/home/u865643202/public_html/periodica/mod/choice/classes/event/answer_updated.php',
+    'mod_data\\plugininfo\\datapreset' => '/home/u865643202/public_html/periodica/mod/data/classes/plugininfo/datapreset.php',
+    'mod_data\\plugininfo\\datafield' => '/home/u865643202/public_html/periodica/mod/data/classes/plugininfo/datafield.php',
+    'mod_feedback\\event\\response_deleted' => '/home/u865643202/public_html/periodica/mod/feedback/classes/event/response_deleted.php',
+    'mod_feedback\\event\\instances_list_viewed' => '/home/u865643202/public_html/periodica/mod/feedback/classes/event/instances_list_viewed.php',
+    'mod_feedback\\event\\course_module_viewed' => '/home/u865643202/public_html/periodica/mod/feedback/classes/event/course_module_viewed.php',
+    'mod_feedback\\event\\response_submitted' => '/home/u865643202/public_html/periodica/mod/feedback/classes/event/response_submitted.php',
+    'mod_forum_post_form' => '/home/u865643202/public_html/periodica/mod/forum/classes/post_form.php',
+    'mod_forum\\post_form' => '/home/u865643202/public_html/periodica/mod/forum/classes/post_form.php',
+    'mod_forum\\event\\assessable_uploaded' => '/home/u865643202/public_html/periodica/mod/forum/classes/event/assessable_uploaded.php',
+    'mod_forum_observer' => '/home/u865643202/public_html/periodica/mod/forum/classes/observer.php',
+    'mod_forum\\observer' => '/home/u865643202/public_html/periodica/mod/forum/classes/observer.php',
+    'mod_lesson_file_info' => '/home/u865643202/public_html/periodica/mod/lesson/classes/file_info.php',
+    'mod_lesson\\file_info' => '/home/u865643202/public_html/periodica/mod/lesson/classes/file_info.php',
+    'mod_lti\\plugininfo\\ltisource' => '/home/u865643202/public_html/periodica/mod/lti/classes/plugininfo/ltisource.php',
+    'mod_lti\\event\\unknown_service_api_called' => '/home/u865643202/public_html/periodica/mod/lti/classes/event/unknown_service_api_called.php',
+    'mod_page\\event\\instances_list_viewed' => '/home/u865643202/public_html/periodica/mod/page/classes/event/instances_list_viewed.php',
+    'mod_page\\event\\course_module_viewed' => '/home/u865643202/public_html/periodica/mod/page/classes/event/course_module_viewed.php',
+    'mod_quiz_group_observers' => '/home/u865643202/public_html/periodica/mod/quiz/classes/group_observers.php',
+    'mod_quiz\\group_observers' => '/home/u865643202/public_html/periodica/mod/quiz/classes/group_observers.php',
+    'mod_quiz_admin_setting_grademethod' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz\\admin_setting_grademethod' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz_admin_setting_browsersecurity' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz\\admin_setting_browsersecurity' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz\\plugininfo\\quizaccess' => '/home/u865643202/public_html/periodica/mod/quiz/classes/plugininfo/quizaccess.php',
+    'mod_quiz\\plugininfo\\quiz' => '/home/u865643202/public_html/periodica/mod/quiz/classes/plugininfo/quiz.php',
+    'mod_quiz_admin_setting_overduehandling' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz\\admin_setting_overduehandling' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz_admin_setting_user_image' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz\\admin_setting_user_image' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz_admin_review_setting' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_review_setting.php',
+    'mod_quiz\\admin_review_setting' => '/home/u865643202/public_html/periodica/mod/quiz/classes/admin_review_setting.php',
+    'mod_quiz\\event\\attempt_becameoverdue' => '/home/u865643202/public_html/periodica/mod/quiz/classes/event/attempt_becameoverdue.php',
+    'mod_quiz\\event\\attempt_abandoned' => '/home/u865643202/public_html/periodica/mod/quiz/classes/event/attempt_abandoned.php',
+    'mod_quiz\\event\\attempt_started' => '/home/u865643202/public_html/periodica/mod/quiz/classes/event/attempt_started.php',
+    'mod_quiz\\event\\attempt_submitted' => '/home/u865643202/public_html/periodica/mod/quiz/classes/event/attempt_submitted.php',
+    'mod_scorm\\plugininfo\\scormreport' => '/home/u865643202/public_html/periodica/mod/scorm/classes/plugininfo/scormreport.php',
+    'mod_workshop\\plugininfo\\workshopallocation' => '/home/u865643202/public_html/periodica/mod/workshop/classes/plugininfo/workshopallocation.php',
+    'mod_workshop\\plugininfo\\workshopeval' => '/home/u865643202/public_html/periodica/mod/workshop/classes/plugininfo/workshopeval.php',
+    'mod_workshop\\plugininfo\\workshopform' => '/home/u865643202/public_html/periodica/mod/workshop/classes/plugininfo/workshopform.php',
+    'mod_workshop\\event\\course_module_viewed' => '/home/u865643202/public_html/periodica/mod/workshop/classes/event/course_module_viewed.php',
+    'mod_workshop\\event\\assessable_uploaded' => '/home/u865643202/public_html/periodica/mod/workshop/classes/event/assessable_uploaded.php',
+    'calendartype_gregorian_structure' => '/home/u865643202/public_html/periodica/calendar/type/gregorian/classes/structure.php',
+    'calendartype_gregorian\\structure' => '/home/u865643202/public_html/periodica/calendar/type/gregorian/classes/structure.php',
+    'enrol_category_observer' => '/home/u865643202/public_html/periodica/enrol/category/classes/observer.php',
+    'enrol_category\\observer' => '/home/u865643202/public_html/periodica/enrol/category/classes/observer.php',
+    'enrol_meta_observer' => '/home/u865643202/public_html/periodica/enrol/meta/classes/observer.php',
+    'enrol_meta\\observer' => '/home/u865643202/public_html/periodica/enrol/meta/classes/observer.php',
+    'editor_tinymce_plugin' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/classes/plugin.php',
+    'editor_tinymce\\plugin' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/classes/plugin.php',
+    'editor_tinymce\\plugininfo\\tinymce' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/classes/plugininfo/tinymce.php',
+    'report_log\\event\\content_viewed' => '/home/u865643202/public_html/periodica/report/log/classes/event/content_viewed.php',
+    'report_loglive\\event\\content_viewed' => '/home/u865643202/public_html/periodica/report/loglive/classes/event/content_viewed.php',
+    'report_outline\\event\\content_viewed' => '/home/u865643202/public_html/periodica/report/outline/classes/event/content_viewed.php',
+    'report_participation\\event\\content_viewed' => '/home/u865643202/public_html/periodica/report/participation/classes/event/content_viewed.php',
+    'report_stats\\event\\content_viewed' => '/home/u865643202/public_html/periodica/report/stats/classes/event/content_viewed.php',
+    'tool_capability_settings_form' => '/home/u865643202/public_html/periodica/admin/tool/capability/classes/settings_form.php',
+    'tool_capability\\settings_form' => '/home/u865643202/public_html/periodica/admin/tool/capability/classes/settings_form.php',
+    'tool_generator_course_backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/course_backend.php',
+    'tool_generator\\course_backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/course_backend.php',
+    'tool_generator_make_course_form' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator\\make_course_form' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator_make_testplan_form' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator\\make_testplan_form' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator_testplan_backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/testplan_backend.php',
+    'tool_generator\\testplan_backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/testplan_backend.php',
+    'tool_generator_backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/backend.php',
+    'tool_generator\\backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/backend.php',
+    'tool_generator_site_backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/site_backend.php',
+    'tool_generator\\site_backend' => '/home/u865643202/public_html/periodica/admin/tool/generator/classes/site_backend.php',
+    'tool_installaddon_installer' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/installer.php',
+    'tool_installaddon\\installer' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/installer.php',
+    'tool_installaddon_validator' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/validator.php',
+    'tool_installaddon\\validator' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/validator.php',
+    'tool_installaddon_pluginfo_client' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_installaddon\\pluginfo_client' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_installaddon_installfromzip_form' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_installaddon\\installfromzip_form' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_replace_form' => '/home/u865643202/public_html/periodica/admin/tool/replace/classes/form.php',
+    'tool_replace\\form' => '/home/u865643202/public_html/periodica/admin/tool/replace/classes/form.php',
+    'tool_uploadcourse_step2_form' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse\\step2_form' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse_step1_form' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse\\step1_form' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse_base_form' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/base_form.php',
+    'tool_uploadcourse\\base_form' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/base_form.php',
+    'tool_uploadcourse_processor' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse\\processor' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse_helper' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse\\helper' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse_course' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/course.php',
+    'tool_uploadcourse\\course' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/course.php',
+    'tool_uploadcourse_tracker' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/tracker.php',
+    'tool_uploadcourse\\tracker' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/classes/tracker.php',
+    'assignsubmission_file\\event\\assessable_uploaded' => '/home/u865643202/public_html/periodica/mod/assign/submission/file/classes/event/assessable_uploaded.php',
+    'assignsubmission_onlinetext\\event\\assessable_uploaded' => '/home/u865643202/public_html/periodica/mod/assign/submission/onlinetext/classes/event/assessable_uploaded.php',
+    'assignfeedback_editpdf_document_services' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf\\document_services' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf_page_editor' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf\\page_editor' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf_annotation' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignfeedback_editpdf\\annotation' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignfeedback_editpdf_widget' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignfeedback_editpdf\\widget' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignfeedback_editpdf_renderer' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf\\renderer' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf_comments_quick_list' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignfeedback_editpdf\\comments_quick_list' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignfeedback_editpdf_comment' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf\\comment' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf_pdf' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignfeedback_editpdf\\pdf' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignment_online\\event\\assessable_uploaded' => '/home/u865643202/public_html/periodica/mod/assignment/type/online/classes/event/assessable_uploaded.php',
+    'assignment_upload\\event\\assessable_submitted' => '/home/u865643202/public_html/periodica/mod/assignment/type/upload/classes/event/assessable_submitted.php',
+    'assignment_upload\\event\\assessable_uploaded' => '/home/u865643202/public_html/periodica/mod/assignment/type/upload/classes/event/assessable_uploaded.php',
+    'booktool_exportimscp\\event\\book_exported' => '/home/u865643202/public_html/periodica/mod/book/tool/exportimscp/classes/event/book_exported.php',
+    'booktool_print\\event\\book_printed' => '/home/u865643202/public_html/periodica/mod/book/tool/print/classes/event/book_printed.php',
+    'booktool_print\\event\\chapter_printed' => '/home/u865643202/public_html/periodica/mod/book/tool/print/classes/event/chapter_printed.php',
+    'quiz_statistics_calculated' => '/home/u865643202/public_html/periodica/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics\\calculated' => '/home/u865643202/public_html/periodica/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics_calculator' => '/home/u865643202/public_html/periodica/mod/quiz/report/statistics/classes/calculator.php',
+    'quiz_statistics\\calculator' => '/home/u865643202/public_html/periodica/mod/quiz/report/statistics/classes/calculator.php',
+    'workshopallocation_scheduled_observer' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/scheduled/classes/observer.php',
+    'workshopallocation_scheduled\\observer' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/scheduled/classes/observer.php',
+    'tinymce_spellchecker_SpellChecker' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tinymce_spellchecker\\SpellChecker' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tinymce_spellchecker_EnchantSpell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker\\EnchantSpell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker_GoogleSpell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker\\GoogleSpell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker_PSpellShell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker\\PSpellShell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker\\utils\\Logger' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/utils/Logger.php',
+    'tinymce_spellchecker\\utils\\JSON' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/utils/JSON.php',
+    'tinymce_spellchecker_PSpell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'tinymce_spellchecker\\PSpell' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'textlib' => '/home/u865643202/public_html/periodica/lib/classes/text.php',
+    'collatorlib' => '/home/u865643202/public_html/periodica/lib/classes/collator.php',
+  ),
+  'filemap' => 
+  array (
+    'lib.php' => 
+    array (
+      'qtype' => 
+      array (
+        'calculated' => '/home/u865643202/public_html/periodica/question/type/calculated/lib.php',
+        'calculatedmulti' => '/home/u865643202/public_html/periodica/question/type/calculatedmulti/lib.php',
+        'calculatedsimple' => '/home/u865643202/public_html/periodica/question/type/calculatedsimple/lib.php',
+        'essay' => '/home/u865643202/public_html/periodica/question/type/essay/lib.php',
+        'match' => '/home/u865643202/public_html/periodica/question/type/match/lib.php',
+        'multichoice' => '/home/u865643202/public_html/periodica/question/type/multichoice/lib.php',
+        'numerical' => '/home/u865643202/public_html/periodica/question/type/numerical/lib.php',
+        'randomsamatch' => '/home/u865643202/public_html/periodica/question/type/randomsamatch/lib.php',
+        'shortanswer' => '/home/u865643202/public_html/periodica/question/type/shortanswer/lib.php',
+        'truefalse' => '/home/u865643202/public_html/periodica/question/type/truefalse/lib.php',
+      ),
+      'mod' => 
+      array (
+        'assign' => '/home/u865643202/public_html/periodica/mod/assign/lib.php',
+        'assignment' => '/home/u865643202/public_html/periodica/mod/assignment/lib.php',
+        'book' => '/home/u865643202/public_html/periodica/mod/book/lib.php',
+        'chat' => '/home/u865643202/public_html/periodica/mod/chat/lib.php',
+        'choice' => '/home/u865643202/public_html/periodica/mod/choice/lib.php',
+        'data' => '/home/u865643202/public_html/periodica/mod/data/lib.php',
+        'feedback' => '/home/u865643202/public_html/periodica/mod/feedback/lib.php',
+        'folder' => '/home/u865643202/public_html/periodica/mod/folder/lib.php',
+        'forum' => '/home/u865643202/public_html/periodica/mod/forum/lib.php',
+        'glossary' => '/home/u865643202/public_html/periodica/mod/glossary/lib.php',
+        'imscp' => '/home/u865643202/public_html/periodica/mod/imscp/lib.php',
+        'jclic' => '/home/u865643202/public_html/periodica/mod/jclic/lib.php',
+        'label' => '/home/u865643202/public_html/periodica/mod/label/lib.php',
+        'lesson' => '/home/u865643202/public_html/periodica/mod/lesson/lib.php',
+        'lti' => '/home/u865643202/public_html/periodica/mod/lti/lib.php',
+        'page' => '/home/u865643202/public_html/periodica/mod/page/lib.php',
+        'quiz' => '/home/u865643202/public_html/periodica/mod/quiz/lib.php',
+        'resource' => '/home/u865643202/public_html/periodica/mod/resource/lib.php',
+        'scorm' => '/home/u865643202/public_html/periodica/mod/scorm/lib.php',
+        'survey' => '/home/u865643202/public_html/periodica/mod/survey/lib.php',
+        'url' => '/home/u865643202/public_html/periodica/mod/url/lib.php',
+        'wiki' => '/home/u865643202/public_html/periodica/mod/wiki/lib.php',
+        'workshop' => '/home/u865643202/public_html/periodica/mod/workshop/lib.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => '/home/u865643202/public_html/periodica/enrol/category/lib.php',
+        'cohort' => '/home/u865643202/public_html/periodica/enrol/cohort/lib.php',
+        'database' => '/home/u865643202/public_html/periodica/enrol/database/lib.php',
+        'flatfile' => '/home/u865643202/public_html/periodica/enrol/flatfile/lib.php',
+        'guest' => '/home/u865643202/public_html/periodica/enrol/guest/lib.php',
+        'imsenterprise' => '/home/u865643202/public_html/periodica/enrol/imsenterprise/lib.php',
+        'ldap' => '/home/u865643202/public_html/periodica/enrol/ldap/lib.php',
+        'manual' => '/home/u865643202/public_html/periodica/enrol/manual/lib.php',
+        'meta' => '/home/u865643202/public_html/periodica/enrol/meta/lib.php',
+        'mnet' => '/home/u865643202/public_html/periodica/enrol/mnet/lib.php',
+        'paypal' => '/home/u865643202/public_html/periodica/enrol/paypal/lib.php',
+        'self' => '/home/u865643202/public_html/periodica/enrol/self/lib.php',
+      ),
+      'message' => 
+      array (
+      ),
+      'block' => 
+      array (
+        'comments' => '/home/u865643202/public_html/periodica/blocks/comments/lib.php',
+        'html' => '/home/u865643202/public_html/periodica/blocks/html/lib.php',
+      ),
+      'filter' => 
+      array (
+        'tex' => '/home/u865643202/public_html/periodica/filter/tex/lib.php',
+      ),
+      'editor' => 
+      array (
+        'textarea' => '/home/u865643202/public_html/periodica/lib/editor/textarea/lib.php',
+        'tinymce' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/lib.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => '/home/u865643202/public_html/periodica/course/format/singleactivity/lib.php',
+        'social' => '/home/u865643202/public_html/periodica/course/format/social/lib.php',
+        'topics' => '/home/u865643202/public_html/periodica/course/format/topics/lib.php',
+        'weeks' => '/home/u865643202/public_html/periodica/course/format/weeks/lib.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'completion' => '/home/u865643202/public_html/periodica/report/completion/lib.php',
+        'log' => '/home/u865643202/public_html/periodica/report/log/lib.php',
+        'loglive' => '/home/u865643202/public_html/periodica/report/loglive/lib.php',
+        'outline' => '/home/u865643202/public_html/periodica/report/outline/lib.php',
+        'participation' => '/home/u865643202/public_html/periodica/report/participation/lib.php',
+        'progress' => '/home/u865643202/public_html/periodica/report/progress/lib.php',
+        'stats' => '/home/u865643202/public_html/periodica/report/stats/lib.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+        'xml' => '/home/u865643202/public_html/periodica/grade/import/xml/lib.php',
+      ),
+      'gradereport' => 
+      array (
+        'grader' => '/home/u865643202/public_html/periodica/grade/report/grader/lib.php',
+        'overview' => '/home/u865643202/public_html/periodica/grade/report/overview/lib.php',
+        'user' => '/home/u865643202/public_html/periodica/grade/report/user/lib.php',
+      ),
+      'gradingform' => 
+      array (
+        'guide' => '/home/u865643202/public_html/periodica/grade/grading/form/guide/lib.php',
+        'rubric' => '/home/u865643202/public_html/periodica/grade/grading/form/rubric/lib.php',
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+        'rest' => '/home/u865643202/public_html/periodica/webservice/rest/lib.php',
+        'soap' => '/home/u865643202/public_html/periodica/webservice/soap/lib.php',
+        'xmlrpc' => '/home/u865643202/public_html/periodica/webservice/xmlrpc/lib.php',
+      ),
+      'repository' => 
+      array (
+        'alfresco' => '/home/u865643202/public_html/periodica/repository/alfresco/lib.php',
+        'areafiles' => '/home/u865643202/public_html/periodica/repository/areafiles/lib.php',
+        'boxnet' => '/home/u865643202/public_html/periodica/repository/boxnet/lib.php',
+        'coursefiles' => '/home/u865643202/public_html/periodica/repository/coursefiles/lib.php',
+        'dropbox' => '/home/u865643202/public_html/periodica/repository/dropbox/lib.php',
+        'equella' => '/home/u865643202/public_html/periodica/repository/equella/lib.php',
+        'filesystem' => '/home/u865643202/public_html/periodica/repository/filesystem/lib.php',
+        'flickr' => '/home/u865643202/public_html/periodica/repository/flickr/lib.php',
+        'flickr_public' => '/home/u865643202/public_html/periodica/repository/flickr_public/lib.php',
+        'googledocs' => '/home/u865643202/public_html/periodica/repository/googledocs/lib.php',
+        'local' => '/home/u865643202/public_html/periodica/repository/local/lib.php',
+        'merlot' => '/home/u865643202/public_html/periodica/repository/merlot/lib.php',
+        'picasa' => '/home/u865643202/public_html/periodica/repository/picasa/lib.php',
+        'recent' => '/home/u865643202/public_html/periodica/repository/recent/lib.php',
+        's3' => '/home/u865643202/public_html/periodica/repository/s3/lib.php',
+        'skydrive' => '/home/u865643202/public_html/periodica/repository/skydrive/lib.php',
+        'upload' => '/home/u865643202/public_html/periodica/repository/upload/lib.php',
+        'url' => '/home/u865643202/public_html/periodica/repository/url/lib.php',
+        'user' => '/home/u865643202/public_html/periodica/repository/user/lib.php',
+        'webdav' => '/home/u865643202/public_html/periodica/repository/webdav/lib.php',
+        'wikimedia' => '/home/u865643202/public_html/periodica/repository/wikimedia/lib.php',
+        'youtube' => '/home/u865643202/public_html/periodica/repository/youtube/lib.php',
+      ),
+      'portfolio' => 
+      array (
+        'boxnet' => '/home/u865643202/public_html/periodica/portfolio/boxnet/lib.php',
+        'download' => '/home/u865643202/public_html/periodica/portfolio/download/lib.php',
+        'flickr' => '/home/u865643202/public_html/periodica/portfolio/flickr/lib.php',
+        'googledocs' => '/home/u865643202/public_html/periodica/portfolio/googledocs/lib.php',
+        'mahara' => '/home/u865643202/public_html/periodica/portfolio/mahara/lib.php',
+        'picasa' => '/home/u865643202/public_html/periodica/portfolio/picasa/lib.php',
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+        'xhtml' => '/home/u865643202/public_html/periodica/question/format/xhtml/lib.php',
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'customlang' => '/home/u865643202/public_html/periodica/admin/tool/customlang/lib.php',
+        'generator' => '/home/u865643202/public_html/periodica/admin/tool/generator/lib.php',
+        'langimport' => '/home/u865643202/public_html/periodica/admin/tool/langimport/lib.php',
+        'qeupgradehelper' => '/home/u865643202/public_html/periodica/admin/tool/qeupgradehelper/lib.php',
+      ),
+      'cachestore' => 
+      array (
+        'file' => '/home/u865643202/public_html/periodica/cache/stores/file/lib.php',
+        'memcache' => '/home/u865643202/public_html/periodica/cache/stores/memcache/lib.php',
+        'memcached' => '/home/u865643202/public_html/periodica/cache/stores/memcached/lib.php',
+        'mongodb' => '/home/u865643202/public_html/periodica/cache/stores/mongodb/lib.php',
+        'session' => '/home/u865643202/public_html/periodica/cache/stores/session/lib.php',
+        'static' => '/home/u865643202/public_html/periodica/cache/stores/static/lib.php',
+      ),
+      'cachelock' => 
+      array (
+        'file' => '/home/u865643202/public_html/periodica/cache/locks/file/lib.php',
+      ),
+      'theme' => 
+      array (
+        'afterburner' => '/home/u865643202/public_html/periodica/theme/afterburner/lib.php',
+        'anomaly' => '/home/u865643202/public_html/periodica/theme/anomaly/lib.php',
+        'arialist' => '/home/u865643202/public_html/periodica/theme/arialist/lib.php',
+        'brick' => '/home/u865643202/public_html/periodica/theme/brick/lib.php',
+        'clean' => '/home/u865643202/public_html/periodica/theme/clean/lib.php',
+        'formal_white' => '/home/u865643202/public_html/periodica/theme/formal_white/lib.php',
+        'fusion' => '/home/u865643202/public_html/periodica/theme/fusion/lib.php',
+        'magazine' => '/home/u865643202/public_html/periodica/theme/magazine/lib.php',
+        'nimble' => '/home/u865643202/public_html/periodica/theme/nimble/lib.php',
+        'nonzero' => '/home/u865643202/public_html/periodica/theme/nonzero/lib.php',
+        'overlay' => '/home/u865643202/public_html/periodica/theme/overlay/lib.php',
+        'sky_high' => '/home/u865643202/public_html/periodica/theme/sky_high/lib.php',
+        'splash' => '/home/u865643202/public_html/periodica/theme/splash/lib.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'comments' => '/home/u865643202/public_html/periodica/mod/assign/submission/comments/lib.php',
+        'file' => '/home/u865643202/public_html/periodica/mod/assign/submission/file/lib.php',
+        'onlinetext' => '/home/u865643202/public_html/periodica/mod/assign/submission/onlinetext/lib.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'editpdf' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/lib.php',
+        'file' => '/home/u865643202/public_html/periodica/mod/assign/feedback/file/lib.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+        'exportimscp' => '/home/u865643202/public_html/periodica/mod/book/tool/exportimscp/lib.php',
+        'importhtml' => '/home/u865643202/public_html/periodica/mod/book/tool/importhtml/lib.php',
+        'print' => '/home/u865643202/public_html/periodica/mod/book/tool/print/lib.php',
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+        'statistics' => '/home/u865643202/public_html/periodica/mod/quiz/report/statistics/lib.php',
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'accumulative' => '/home/u865643202/public_html/periodica/mod/workshop/form/accumulative/lib.php',
+        'comments' => '/home/u865643202/public_html/periodica/mod/workshop/form/comments/lib.php',
+        'numerrors' => '/home/u865643202/public_html/periodica/mod/workshop/form/numerrors/lib.php',
+        'rubric' => '/home/u865643202/public_html/periodica/mod/workshop/form/rubric/lib.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'manual' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/manual/lib.php',
+        'random' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/random/lib.php',
+        'scheduled' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/scheduled/lib.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => '/home/u865643202/public_html/periodica/mod/workshop/eval/best/lib.php',
+      ),
+      'tinymce' => 
+      array (
+        'ctrlhelp' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/ctrlhelp/lib.php',
+        'dragmath' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/dragmath/lib.php',
+        'managefiles' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/managefiles/lib.php',
+        'moodleemoticon' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodleemoticon/lib.php',
+        'moodleimage' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodleimage/lib.php',
+        'moodlemedia' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodlemedia/lib.php',
+        'moodlenolink' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodlenolink/lib.php',
+        'pdw' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/pdw/lib.php',
+        'spellchecker' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/lib.php',
+        'wrap' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/wrap/lib.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+    'settings.php' => 
+    array (
+      'qtype' => 
+      array (
+      ),
+      'mod' => 
+      array (
+        'assign' => '/home/u865643202/public_html/periodica/mod/assign/settings.php',
+        'assignment' => '/home/u865643202/public_html/periodica/mod/assignment/settings.php',
+        'book' => '/home/u865643202/public_html/periodica/mod/book/settings.php',
+        'chat' => '/home/u865643202/public_html/periodica/mod/chat/settings.php',
+        'data' => '/home/u865643202/public_html/periodica/mod/data/settings.php',
+        'feedback' => '/home/u865643202/public_html/periodica/mod/feedback/settings.php',
+        'folder' => '/home/u865643202/public_html/periodica/mod/folder/settings.php',
+        'forum' => '/home/u865643202/public_html/periodica/mod/forum/settings.php',
+        'glossary' => '/home/u865643202/public_html/periodica/mod/glossary/settings.php',
+        'imscp' => '/home/u865643202/public_html/periodica/mod/imscp/settings.php',
+        'jclic' => '/home/u865643202/public_html/periodica/mod/jclic/settings.php',
+        'label' => '/home/u865643202/public_html/periodica/mod/label/settings.php',
+        'lesson' => '/home/u865643202/public_html/periodica/mod/lesson/settings.php',
+        'lti' => '/home/u865643202/public_html/periodica/mod/lti/settings.php',
+        'page' => '/home/u865643202/public_html/periodica/mod/page/settings.php',
+        'quiz' => '/home/u865643202/public_html/periodica/mod/quiz/settings.php',
+        'resource' => '/home/u865643202/public_html/periodica/mod/resource/settings.php',
+        'scorm' => '/home/u865643202/public_html/periodica/mod/scorm/settings.php',
+        'url' => '/home/u865643202/public_html/periodica/mod/url/settings.php',
+        'workshop' => '/home/u865643202/public_html/periodica/mod/workshop/settings.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => '/home/u865643202/public_html/periodica/enrol/category/settings.php',
+        'cohort' => '/home/u865643202/public_html/periodica/enrol/cohort/settings.php',
+        'database' => '/home/u865643202/public_html/periodica/enrol/database/settings.php',
+        'flatfile' => '/home/u865643202/public_html/periodica/enrol/flatfile/settings.php',
+        'guest' => '/home/u865643202/public_html/periodica/enrol/guest/settings.php',
+        'imsenterprise' => '/home/u865643202/public_html/periodica/enrol/imsenterprise/settings.php',
+        'ldap' => '/home/u865643202/public_html/periodica/enrol/ldap/settings.php',
+        'manual' => '/home/u865643202/public_html/periodica/enrol/manual/settings.php',
+        'meta' => '/home/u865643202/public_html/periodica/enrol/meta/settings.php',
+        'mnet' => '/home/u865643202/public_html/periodica/enrol/mnet/settings.php',
+        'paypal' => '/home/u865643202/public_html/periodica/enrol/paypal/settings.php',
+        'self' => '/home/u865643202/public_html/periodica/enrol/self/settings.php',
+      ),
+      'message' => 
+      array (
+        'email' => '/home/u865643202/public_html/periodica/message/output/email/settings.php',
+        'jabber' => '/home/u865643202/public_html/periodica/message/output/jabber/settings.php',
+      ),
+      'block' => 
+      array (
+        'course_list' => '/home/u865643202/public_html/periodica/blocks/course_list/settings.php',
+        'course_overview' => '/home/u865643202/public_html/periodica/blocks/course_overview/settings.php',
+        'html' => '/home/u865643202/public_html/periodica/blocks/html/settings.php',
+        'online_users' => '/home/u865643202/public_html/periodica/blocks/online_users/settings.php',
+        'rss_client' => '/home/u865643202/public_html/periodica/blocks/rss_client/settings.php',
+        'section_links' => '/home/u865643202/public_html/periodica/blocks/section_links/settings.php',
+        'tags' => '/home/u865643202/public_html/periodica/blocks/tags/settings.php',
+      ),
+      'filter' => 
+      array (
+        'censor' => '/home/u865643202/public_html/periodica/filter/censor/settings.php',
+        'emoticon' => '/home/u865643202/public_html/periodica/filter/emoticon/settings.php',
+        'multilang' => '/home/u865643202/public_html/periodica/filter/multilang/settings.php',
+        'tex' => '/home/u865643202/public_html/periodica/filter/tex/settings.php',
+        'urltolink' => '/home/u865643202/public_html/periodica/filter/urltolink/settings.php',
+      ),
+      'editor' => 
+      array (
+        'tinymce' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/settings.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => '/home/u865643202/public_html/periodica/course/format/singleactivity/settings.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'backups' => '/home/u865643202/public_html/periodica/report/backups/settings.php',
+        'configlog' => '/home/u865643202/public_html/periodica/report/configlog/settings.php',
+        'courseoverview' => '/home/u865643202/public_html/periodica/report/courseoverview/settings.php',
+        'log' => '/home/u865643202/public_html/periodica/report/log/settings.php',
+        'loglive' => '/home/u865643202/public_html/periodica/report/loglive/settings.php',
+        'performance' => '/home/u865643202/public_html/periodica/report/performance/settings.php',
+        'questioninstances' => '/home/u865643202/public_html/periodica/report/questioninstances/settings.php',
+        'security' => '/home/u865643202/public_html/periodica/report/security/settings.php',
+        'stats' => '/home/u865643202/public_html/periodica/report/stats/settings.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+      ),
+      'gradereport' => 
+      array (
+        'grader' => '/home/u865643202/public_html/periodica/grade/report/grader/settings.php',
+        'overview' => '/home/u865643202/public_html/periodica/grade/report/overview/settings.php',
+        'user' => '/home/u865643202/public_html/periodica/grade/report/user/settings.php',
+      ),
+      'gradingform' => 
+      array (
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+      ),
+      'repository' => 
+      array (
+      ),
+      'portfolio' => 
+      array (
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'assignmentupgrade' => '/home/u865643202/public_html/periodica/admin/tool/assignmentupgrade/settings.php',
+        'behat' => '/home/u865643202/public_html/periodica/admin/tool/behat/settings.php',
+        'capability' => '/home/u865643202/public_html/periodica/admin/tool/capability/settings.php',
+        'customlang' => '/home/u865643202/public_html/periodica/admin/tool/customlang/settings.php',
+        'dbtransfer' => '/home/u865643202/public_html/periodica/admin/tool/dbtransfer/settings.php',
+        'generator' => '/home/u865643202/public_html/periodica/admin/tool/generator/settings.php',
+        'health' => '/home/u865643202/public_html/periodica/admin/tool/health/settings.php',
+        'innodb' => '/home/u865643202/public_html/periodica/admin/tool/innodb/settings.php',
+        'installaddon' => '/home/u865643202/public_html/periodica/admin/tool/installaddon/settings.php',
+        'langimport' => '/home/u865643202/public_html/periodica/admin/tool/langimport/settings.php',
+        'multilangupgrade' => '/home/u865643202/public_html/periodica/admin/tool/multilangupgrade/settings.php',
+        'phpunit' => '/home/u865643202/public_html/periodica/admin/tool/phpunit/settings.php',
+        'profiling' => '/home/u865643202/public_html/periodica/admin/tool/profiling/settings.php',
+        'qeupgradehelper' => '/home/u865643202/public_html/periodica/admin/tool/qeupgradehelper/settings.php',
+        'replace' => '/home/u865643202/public_html/periodica/admin/tool/replace/settings.php',
+        'spamcleaner' => '/home/u865643202/public_html/periodica/admin/tool/spamcleaner/settings.php',
+        'timezoneimport' => '/home/u865643202/public_html/periodica/admin/tool/timezoneimport/settings.php',
+        'unsuproles' => '/home/u865643202/public_html/periodica/admin/tool/unsuproles/settings.php',
+        'uploadcourse' => '/home/u865643202/public_html/periodica/admin/tool/uploadcourse/settings.php',
+        'uploaduser' => '/home/u865643202/public_html/periodica/admin/tool/uploaduser/settings.php',
+        'xmldb' => '/home/u865643202/public_html/periodica/admin/tool/xmldb/settings.php',
+      ),
+      'cachestore' => 
+      array (
+        'memcache' => '/home/u865643202/public_html/periodica/cache/stores/memcache/settings.php',
+        'memcached' => '/home/u865643202/public_html/periodica/cache/stores/memcached/settings.php',
+        'mongodb' => '/home/u865643202/public_html/periodica/cache/stores/mongodb/settings.php',
+      ),
+      'cachelock' => 
+      array (
+      ),
+      'theme' => 
+      array (
+        'afterburner' => '/home/u865643202/public_html/periodica/theme/afterburner/settings.php',
+        'anomaly' => '/home/u865643202/public_html/periodica/theme/anomaly/settings.php',
+        'arialist' => '/home/u865643202/public_html/periodica/theme/arialist/settings.php',
+        'brick' => '/home/u865643202/public_html/periodica/theme/brick/settings.php',
+        'clean' => '/home/u865643202/public_html/periodica/theme/clean/settings.php',
+        'formal_white' => '/home/u865643202/public_html/periodica/theme/formal_white/settings.php',
+        'fusion' => '/home/u865643202/public_html/periodica/theme/fusion/settings.php',
+        'magazine' => '/home/u865643202/public_html/periodica/theme/magazine/settings.php',
+        'nimble' => '/home/u865643202/public_html/periodica/theme/nimble/settings.php',
+        'nonzero' => '/home/u865643202/public_html/periodica/theme/nonzero/settings.php',
+        'overlay' => '/home/u865643202/public_html/periodica/theme/overlay/settings.php',
+        'sky_high' => '/home/u865643202/public_html/periodica/theme/sky_high/settings.php',
+        'splash' => '/home/u865643202/public_html/periodica/theme/splash/settings.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'file' => '/home/u865643202/public_html/periodica/mod/assign/submission/file/settings.php',
+        'onlinetext' => '/home/u865643202/public_html/periodica/mod/assign/submission/onlinetext/settings.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'comments' => '/home/u865643202/public_html/periodica/mod/assign/feedback/comments/settings.php',
+        'editpdf' => '/home/u865643202/public_html/periodica/mod/assign/feedback/editpdf/settings.php',
+        'file' => '/home/u865643202/public_html/periodica/mod/assign/feedback/file/settings.php',
+        'offline' => '/home/u865643202/public_html/periodica/mod/assign/feedback/offline/settings.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'numerrors' => '/home/u865643202/public_html/periodica/mod/workshop/form/numerrors/settings.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'random' => '/home/u865643202/public_html/periodica/mod/workshop/allocation/random/settings.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => '/home/u865643202/public_html/periodica/mod/workshop/eval/best/settings.php',
+      ),
+      'tinymce' => 
+      array (
+        'dragmath' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/dragmath/settings.php',
+        'moodleemoticon' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/moodleemoticon/settings.php',
+        'spellchecker' => '/home/u865643202/public_html/periodica/lib/editor/tinymce/plugins/spellchecker/settings.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+  ),
+  'version' => 2013111803,
+);
